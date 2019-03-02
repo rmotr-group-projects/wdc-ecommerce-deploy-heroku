@@ -1,1 +1,1 @@
-web: make runserver
+web: gunicorn ecommerce.wsgi --log-file -
