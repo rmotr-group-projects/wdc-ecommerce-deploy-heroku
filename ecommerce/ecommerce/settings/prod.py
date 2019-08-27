@@ -10,3 +10,8 @@ SECRET_KEY = os.getenv(
 
 
 # YOUR CODE HERE
+db_from_env = dj_database_url.config()
+
+DATABASES['default'].update(db_from_env)
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
