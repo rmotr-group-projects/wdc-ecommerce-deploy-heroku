@@ -1,5 +1,5 @@
 Django==2.1.5
-djangorestframework==3.9.0
+djangorestframework==3.11.2
 freezegun==0.3.11
 
 whitenoise==3.3.1
